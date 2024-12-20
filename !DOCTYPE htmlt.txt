@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIET News Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: white;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .news-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .news-item:last-child {
+            border: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+        .subscribe {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .subscribe input[type="email"] {
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .subscribe button {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .subscribe button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://mserp.kiet.edu/Images/DEFAULT_BG/default_logo1.png"align=right height="50" />
+        <h1>KIET News Portal</h1>
+        <p>Bringing you the latest updates from our college</p>
+    </header>
+    <nav>
+        <a href="#sports">Sports</a>
+        <a href="#innovations">Innovations</a>
+        <a href="#technical-clubs">Technical Clubs</a>
+        <a href="#drama">Drama</a>
+        <a href="#other-activities">Other Activities</a>
+    </nav>
+    <div class="container">
+        <!-- Featured News Section -->
+        <div class="section">
+            <h2>Featured News</h2>
+            <div class="news-item">
+                <h3>Annual Fest Successfully Concludes</h3>
+                <p><i>The much-awaited Annual Fest at KIET concluded on a high note, leaving students and faculty with unforgettable memories. The event, spanning over three days, was packed with activities, including cultural performances, technical exhibitions, sports competitions, and a star-studded musical night.
+                    <br>
+                    <br>
+                    Highlights of the event included:</i>
+                    <ol>
+                        <li><b>Cultural Extravaganza:</b>Enthralling dance and music performances from students representing diverse cultures.</li>
+                        <br>
+                        <li><b>Tech Expo:</b> Cutting-edge projects and innovations by technical clubs received significant appreciation.</li>
+                        <br>
+                        <li><b>Celebrity Night:</b>The festival ended with a mesmerizing performance by a renowned artist, electrifying the audience.</li>
+                    </ol>
+                    </p>
+            </div>
+        </div>
+
+        <!-- Sports Section -->
+        <div class="section" id="sports">
+            <h2>Sports</h2>
+            <div class="news-item">
+                <p>In a thrilling display of skill, determination, and teamwork,<b>KIET emerged as the champion</b> of the highly competitive <b>Intercollege Sports Tournament 2024.</b>The event brought together top teams from prestigious colleges, competing across various disciplines.</p>
+                <b>Key Highlights of KIET's Victory:</b>
+                <br>
+                <ol>
+                    <li><b>Cricket Glory:</b>The cricket team clinched the title with a nail-biting finish in the finals, showcasing exceptional batting and bowling performances.</li>
+                    <br>
+                    <li><b>Football Triumph:</b> A stellar effort from the football team saw them score a decisive victory, demonstrating tactical brilliance on the field.</li>
+                    <br>
+                    <li><b>Athletics Dominance:</b> KIET athletes bagged multiple gold medals in track and field events, further solidifying their position as champions.</li>
+                </ol>
+                <br>
+                <p>This monumental win is a testament to the hard work and dedication of KIET's sports teams, guided by their coaches and supported by the entire college community.</p>
+                <br>
+                <p><b>Congratulations to the champions for bringing home the trophy and making KIET proud!
+
+                </b></p>
+            </div>
+        </div>
+
+        <!-- Innovations Section -->
+        <div class="section" id="innovations">
+            <h2>Innovation Centre at KIET: Nurturing Creativity and Technology </h2>
+            <div class="news-item">
+                <p>The <b>Innovation Centre at KIET</b> stands as a beacon of creativity, entrepreneurship, and technological advancement. Established to foster a culture of innovation among students, the center provides a platform for aspiring minds to transform ideas into impactful solutions.</p>
+                <br>
+                <h3>Key Features of the Innovation Centre:</h3>
+                <br>
+                <ol>
+                    <li><b>State-of-the-Art Infrastructure:</b>Equipped with advanced labs, 3D printers, IoT devices, and AI development kits.</li>
+                    <br>
+                        <li><b>Collaborative Projects:</b>Opportunities for students to collaborate on interdisciplinary projects with industry mentors.</li>
+                        <br>
+                        <li><b>Start-up-Support:</b>Guidance for budding entrepreneurs to develop business models, secure funding, and launch their ventures.</li>
+                        <br>
+                        <li><b>Workshops and Hackathons:</b>Regular events to encourage hands-on learning and competitive spirit among students.</li>
+                </ol>
+                <p>The Innovation Centre has already delivered remarkable achievements, including award-winning prototypes and successful start-ups. It continues to inspire students to think beyond boundaries and contribute to societal and technological growth.</p>
+
+            </div>
+        </div>
+
+        <!-- Technical Clubs Section -->
+        <div class="section" id="technical-clubs">
+            <h2>Technical Clubs at KIET:Empowering Skills and Innovation</h2>
+            <div class="news-item">
+                <p>KIET Group of Institutions takes pride in its vibrant and diverse Technical Clubs, which provide students with a platform to explore, learn, and excel in various technological domains. These clubs aim to nurture talent, encourage collaboration, and inspire innovation, preparing students for future challenges in the tech-driven world.</p>
+                <br>
+                <h3>Prominent Technical Clubs at KIET</h3>
+                <ol>
+                    <li><b>Innogeeks:</b>Focused on enhancing programming skills, organizing coding marathons, hackathons, and competitive coding events.</li>
+                    <br>
+                    <li><b>AI & ML club:</b>Dedicated to exploring Artificial Intelligence and Machine Learning technologies through workshops, research, and projects.</li>
+                    <br>
+                    <li><b>DSDL:</b>Guides students in mastering web technologies and app development through real-world projects and training.</li>
+                </ol>
+                <br>
+                <p>Guides students in mastering web technologies and app development through real-world projects and training.</p>
+
+            </div>
+        </div>
+
+        <!-- Drama Section -->
+        <div class="section" id="drama">
+            <h2>Drama</h2>
+            <div class="news-item">
+                <p>The Drama Club at KIET is a vibrant hub for students passionate about performing arts, storytelling, and self-expression. It offers a platform to showcase acting talent, explore theatrical techniques, and bring impactful stories to life.</p>
+                <br>
+                <h3>Key Highlights of The Drama Club:</h3>
+                <br>
+                <ol>
+                    <li>
+                        <b>Stage Performance:</b>Regularly organizes plays, skits, and monologues during cultural events and fests.</li>
+                        <br>
+                        <li><b>Street Plays(Nukkad Natak):</b>Raises awareness on social issues through impactful street performances.</li>
+                        <br>
+                        <li><b>Intercollege Competition:</b>Represents KIET at various drama and theater festivals, bringing accolades to the institution.</li>
+                </ol>
+                <br>
+                <p>The Drama Club not only provides an outlet for creative expression but also contributes to the cultural richness of KIET, making it a cherished part of campus life.</p>
+            </div>
+        </div>
+
+        <!-- Other Activities Section -->
+        <!--<div class="section" id="other-activities">
+            <h2>Other Activities</h2>
+            <div class="news-item">
+                <h3>Blood Donation Camp Sees Record Participation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum suscipit augue.</p>
+            </div>
+        </div>
+
+        <!-- Subscription Section -->
+        <div class="section subscribe">
+            <h2>Subscribe for Daily Updates</h2>
+            <p>Stay informed with the latest news and updates from KIET.</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 KIET News Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
